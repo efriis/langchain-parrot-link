@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-parrot-link"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain-core = "^0.3.19"
+pytest-asyncio = "^0.24.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+pytest-socket = "^0.7.0"
+langchain-tests = "0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
